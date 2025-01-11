@@ -1,26 +1,36 @@
 # Logs
 logs/
 *.log
-
-# Runtime data
-*.pid
-*.seed
-*.pid.lock
+npm-debug.log*
+yarn-debug.log*
 
 # Dependency directories
 node_modules/
 
-# Task storage file
-tasks.json
-
-# Environment variable files
+# Environment files
 .env
 
-# Debug and cache files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.cache/
-
-# Build directories (if you decide to add a build step later)
+# Build outputs
 dist/
+build/
+
+# Cache files
+.cache/
+*.cache
+*.tsbuildinfo
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Vue-specific
+/public/js/
+*.map
+
+# Linting
+.eslintcache
+
+# Prettier
+.prettierignore
+.prettierrc
+.prettierrc.*
